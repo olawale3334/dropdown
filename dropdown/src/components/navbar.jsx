@@ -6,7 +6,9 @@ function Nav() {
          <nav>
             <div className=" text-gray-500 flex justify-between  items-center m-4"> 
                 <div className='flex items-center  space-x-12'>
-                    <span ><img className='flex items-center w-15' src={logo} alt="" /></span>
+                    <div className='flex items-center' >
+                        <img className=' w-15' src={logo} alt="" />
+                    </div>
                  <div className='list-none md:flex items-center space-x-5 hidden '>
                     <a href=""><li className=''>Features</li></a>
                     <a href=""><li>Company</li></a>

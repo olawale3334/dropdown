@@ -10,8 +10,8 @@
  function Hero() {
     return(
         < >
-        <div className='h-screen '>
-        <div className=' flex flex-col-reverse md:flex-row  mt-[5rem] justify-center items-stretch'>
+        <div className=' min-h-screen  '>
+        <div className='  flex flex-col-reverse md:flex-row  mt-[5rem] justify-center items-stretch'>
             <div className='flex flex-col justify-between px-4'>
                 <div className='mt-5'>
                <p className="hidden md:block font-bold text-4xl  md:text-7xl leading-tight ">
@@ -36,8 +36,8 @@
             <div className=' hidden md:block items-end justify-center md:justify-end'>
                 <img className='md:w-[30rem] h-[32rem] object-contain ' src={hero} alt="" />
             </div>
-            <div className=' md:hidden '>
-                <img className=' w-full object-contain ' src={mobile} alt="" />
+            <div className=' md:hidden flex justify-center w-full px-6 '>
+                <img className='    object-contain ' src={mobile} alt="" />
             </div>
 
         </div>
