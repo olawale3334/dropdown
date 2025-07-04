@@ -24,9 +24,9 @@
 
                  <p className='md:hidden text-4xl font-bold text-center'>Make remote work</p>
 
-                <p className=' text-gray-500 mt-9  leading-6 md:text-[1rem] w-full max-w[400px] md:w-[400px] '>Get your team in sync, no matter your location. Streamline processes,create team ritual, and watch productivity soar </p>
+                <p className=' text-gray-500 mt-9  leading-6 md:text-[1rem] w-full max-w[400px] md:w-[400px] '>Get your team in sync, no matter your location. Streamline processes, create team ritual, and watch productivity soar </p>
                 <div className=' hidden md:block mt-9'>
-                    <button className='bg-black text-white px-6 py-2 rounded-md'>Learn more</button>
+                    <button className='bg-black text-white px-6 py-2 rounded-md hover:bg-white hover:text-black hover:border-black hover:border-[2px] hover:font-medium '>Learn more</button>
                 </div>
                 <div className='md:hidden flex justify-center mt-7'>
                     <button className='bg-black text-white px-6 py-2 rounded-md'>Learn more</button>
