@@ -18,8 +18,8 @@ function Nav() {
 
     return(
         <>
-         <nav>
-            <div className=" text-gray-500 flex justify-between  items-center m-4"> 
+         <nav className='fixed top-0 right-0 left-0 z-50 '>
+            <div className=" text-gray-500 flex justify-between   items-center m-4"> 
                 <div className='flex items-center  space-x-12'>
                     <div className='flex items-center justify-center' >
                         <img className=' w-15' src={logo} alt="" />
@@ -105,9 +105,9 @@ function Nav() {
                  </div>
 
 
-                  <div className={toggle ? "md:hidden h-screen fixed w-[70%] bottom-0 right-0 flex flex-col gap-4 p-4 bg-white  pt-16 rounded-lg " : "hidden"}>
+                  <div className={toggle ? "md:hidden h-screen fixed w-[70%] bottom-0 right-0 flex flex-col gap-4 p-4 bg-white  pt-16 " : "hidden"}>
 
-                  {/* Features Dropdown */}
+               
                   <details className=" mt-5">
                      <summary className="flex justify-between mt-10 items-center cursor-pointer text-gray-700 font-medium list-none">
                         Features
@@ -159,11 +159,11 @@ function Nav() {
                      </div>
                   </details>
 
-                  {/* Other Links */}
+                
                   <a href="#" className="text-gray-700 text-sm">Careers</a>
                   <a href="#" className="text-gray-700 text-sm">About</a>
 
-                  {/* Auth Buttons */}
+                 
                   <div className="flex flex-col gap-3 mt-4">
                      <button className="text-gray-700">Login</button>
                      <button className="bg-slate-50 border border-black rounded-lg px-4 py-2 text-sm">
