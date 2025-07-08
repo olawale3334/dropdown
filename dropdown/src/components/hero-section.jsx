@@ -32,7 +32,7 @@
                     <button className='bg-black text-white px-6 py-2 rounded-md'>Learn more</button>
                 </div>
                 </div>
-                <div className=' flex items-center gap-4 mt-[7rem] justify-center md:justify-start '>
+                <div className=' flex items-center md:gap-4 mt-[7rem] gap-2 justify-center md:justify-start '>
                     <img className='w-20 md:w-[8rem]' src={client2} alt="" />
                     <img className='w-20 md:w-[8rem]' src={client1} alt="" />
                     <img className='w-20 md:w-[8rem]' src={client4} alt="" />
