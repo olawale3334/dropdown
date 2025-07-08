@@ -108,7 +108,7 @@ function Nav() {
                   <div className={toggle ? "md:hidden h-screen fixed w-[70%] bottom-0 right-0 flex flex-col gap-4 p-4 bg-white  pt-16 rounded-lg " : "hidden"}>
 
                   {/* Features Dropdown */}
-                  <details className="">
+                  <details className=" mt-5">
                      <summary className="flex justify-between mt-10 items-center cursor-pointer text-gray-700 font-medium list-none">
                         Features
                         <svg
